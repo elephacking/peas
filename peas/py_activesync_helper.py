@@ -18,6 +18,7 @@
 ########################################################################\
 
 import ssl
+import base64
 
 # https://docs.python.org/2/library/xml.html#xml-vulnerabilities
 from lxml import etree as ElementTree
