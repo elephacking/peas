@@ -324,4 +324,4 @@ def get_unc_file(creds, unc_path, username=None, password=None):
     if info and info['Data']:
         return base64.b64decode(info['Data'])
     else:
-        return "[*] Unable to fetch file."
+        return "[*] Unable to fetch file. This is most likely due to a lack of permissions."
