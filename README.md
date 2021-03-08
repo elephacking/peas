@@ -95,4 +95,7 @@ $ peas -u 'MEGACORP\s.freeside' -p 'Passw0rd1!' mx.megacorp.local --brute-unc [-
 ### TODO
 
 * Build a wrapper to make usage faster
-* Integrate exchanger to make grabbing host discover faster
+* Integrate exchanger to make grabbing host discovery faster
+* Fix email extraction
+* Change default user-agent when connecting to not show Python under `msExchDeviceType` etc
+* Implement other possible ActiveSync functionality 
